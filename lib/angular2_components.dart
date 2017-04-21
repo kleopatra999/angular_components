@@ -4,6 +4,8 @@
 
 library angular2_components;
 
+import 'dart:convert';
+
 import 'package:angular2/angular2.dart' show Provider;
 import 'src/all_components.dart';
 export 'src/all_components.dart';
@@ -68,3 +70,11 @@ const List<Type> materialDirectives = const [
 const List<List<Provider>> materialProviders = const <List<Provider>>[
   popupBindings,
 ];
+
+_foo () {
+  int a;
+  return;
+
+  print("hello");
+
+}
